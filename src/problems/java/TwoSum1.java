@@ -23,7 +23,7 @@ public class TwoSum1 {
         return twoSum;
     }
 
-    static public void test(){
+    public static void test(){
         TwoSum1 twoSum1 = new TwoSum1();
 
         int[] test = {2,7,11,15};

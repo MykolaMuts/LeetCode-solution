@@ -1,17 +1,45 @@
 package problems.java;
 
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
+
 public class ReversedInteger7 {
 
     static int reverse = 0;
 
-    public static int reverse(int value) {
-        if (value == 0) {
-            return value;
-        } else {
-            reverse = 10*reverse + value % 10;
-            reverse(value/10);
-            return reverse;
+//    public static int reverse(int x) {
+//        if (x == 0) {
+//            return x;
+//        } else {
+//            reverse = 10 * reverse + x % 10;
+//            reverse(x/10);
+//            return reverse;
+//        }
+//    }
+
+    public int reverse(int x) {
+
+        int belowZero = 1;
+        
+        if(x <= 0){
+            belowZero = -1;
+            x *= belowZero;
         }
+        
+        int length = (int) Math.log10(x) + 1;
+        
+        int[] array = new int[length];
+
+        int rev = 0;
+
+        for (int i = 0; i < length; i++) {
+            rev += (rev + (x % 10)) * 10;
+            x /= 10;
+        }
+        
+        return rev * belowZero;
+
     }
 
 
@@ -41,6 +69,8 @@ public class ReversedInteger7 {
         }
     }
 
+
+
 //    public static int reverseLoop(int x) {
 //        int degree = (int) Math.log10(x);
 //        System.out.println(degree);
@@ -55,7 +85,11 @@ public class ReversedInteger7 {
 //    }
 
     public static void test(){
-        int rev = reverseLog(-132423);
+
+
+        ReversedInteger7 reversedInteger7 = new ReversedInteger7();
+
+        int rev = reversedInteger7.reverse(-132423);
         System.out.println(rev);
     }
 }
