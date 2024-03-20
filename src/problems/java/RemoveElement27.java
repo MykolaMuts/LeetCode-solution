@@ -78,7 +78,7 @@ public class RemoveElement27 {
         RemoveElement27 removeElement27 = new RemoveElement27();
 
 
-        System.out.println(removeElement27.removeElementSlow(nums, val));
+        System.out.println(removeElement27.removeElement(nums, val));
 
     }
 }

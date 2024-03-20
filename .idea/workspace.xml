@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7313f81d-b555-4989-8163-613c58791c38" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode-java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/java/ReversedInteger7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/java/TwoSum1.java" afterDir="false" />
+    <list default="true" id="7313f81d-b555-4989-8163-613c58791c38" name="Changes" comment="88. Merge Sorted Array">
+      <change afterPath="$PROJECT_DIR$/src/problems/java/LongestCommonPrefix14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/java/LongestSubstringWithoutRepeatingCharacters3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/java/RemoveElement27.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -32,11 +28,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2d6B6CdKAY5LbKbfVUHHuczxnHm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -47,12 +43,14 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.Unnamed.executor": "Run",
-    "Application.problems.java.Main.executor": "Run",
+    "Application.problems.java.Main.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/gadlw/IdeaProjects/courses/Java/Stream API/stream-api-exercises",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -66,19 +64,6 @@
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="leetcode-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="leetcode-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="leetcode-java" />
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -99,15 +84,147 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709318470928</updated>
-      <workItem from="1709318472045" duration="2700000" />
+      <workItem from="1709318472045" duration="4746000" />
+      <workItem from="1709472068997" duration="10672000" />
+      <workItem from="1709483412056" duration="3286000" />
+      <workItem from="1709569953424" duration="7205000" />
+      <workItem from="1709661537136" duration="501000" />
+      <workItem from="1709663094866" duration="3076000" />
+      <workItem from="1709740653730" duration="94000" />
+      <workItem from="1710617551876" duration="3475000" />
+      <workItem from="1710621044776" duration="3416000" />
+      <workItem from="1710931292057" duration="14000" />
+      <workItem from="1710941171186" duration="5289000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1709321329562</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709321329562</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Small update">
+      <option name="closed" value="true" />
+      <created>1709503573255</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709503573255</updated>
+    </task>
+    <task id="LOCAL-00003" summary="977. Square Of Sorted Array">
+      <option name="closed" value="true" />
+      <created>1709503597008</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709503597008</updated>
+    </task>
+    <task id="LOCAL-00004" summary="58. Length Of Last Word">
+      <option name="closed" value="true" />
+      <created>1709503634452</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709503634452</updated>
+    </task>
+    <task id="LOCAL-00005" summary="7. Reversed Integer">
+      <option name="closed" value="true" />
+      <created>1709661569422</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709661569422</updated>
+    </task>
+    <task id="LOCAL-00006" summary="17. Letter Combinations of a Phone Number (not solve)">
+      <option name="closed" value="true" />
+      <created>1710624437365</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710624437365</updated>
+    </task>
+    <task id="LOCAL-00007" summary="88. Merge Sorted Array">
+      <option name="closed" value="true" />
+      <created>1710943099967</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710943099967</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="Small update" />
+    <MESSAGE value="977. Square Of Sorted Array" />
+    <MESSAGE value="58. Length Of Last Word" />
+    <MESSAGE value="7. Reversed Integer" />
+    <MESSAGE value="17. Letter Combinations of a Phone Number (not solve)" />
+    <MESSAGE value="88. Merge Sorted Array" />
+    <option name="LAST_COMMIT_MESSAGE" value="88. Merge Sorted Array" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/problems/java/LongestSubstringWithoutRepeatingCharacters3.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/problems/java/SquaresOfASortedArray977.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/problems/java/LongestCommonPrefix14.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/problems/java/ReversedInteger7.java</url>
+          <line>58</line>
+          <properties class="problems.java.ReversedInteger7" method="reverseArray">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/problems/java/MergeSortedArray88.java</url>
+          <line>6</line>
+          <properties class="problems.java.MergeSortedArray88" method="merge">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/problems/java/RemoveElement27.java</url>
+          <line>31</line>
+          <properties class="problems.java.RemoveElement27" method="removeElementSlow">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
