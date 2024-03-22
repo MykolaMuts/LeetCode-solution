@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7313f81d-b555-4989-8163-613c58791c38" name="Changes" comment="Small update">
+    <list default="true" id="7313f81d-b555-4989-8163-613c58791c38" name="Changes" comment="169. Majority Element">
       <change afterPath="$PROJECT_DIR$/src/problems/java/LongestCommonPrefix14.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/problems/java/LongestSubstringWithoutRepeatingCharacters3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/java/RemoveDuplicatesFromSortedArray26.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems/java/RemoveDuplicatesFromSortedArrayII88.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/problems/java/RotateArray189.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -97,7 +96,7 @@
       <workItem from="1710931292057" duration="14000" />
       <workItem from="1710941171186" duration="6743000" />
       <workItem from="1711043289363" duration="2474000" />
-      <workItem from="1711045780492" duration="9863000" />
+      <workItem from="1711045780492" duration="15528000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -171,7 +170,39 @@
       <option name="project" value="LOCAL" />
       <updated>1710947986831</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="80. Remove Duplicates from Sorted Array II">
+      <option name="closed" value="true" />
+      <created>1711125444310</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1711125444310</updated>
+    </task>
+    <task id="LOCAL-00011" summary="26. Remove Duplicates from Sorted Array">
+      <option name="closed" value="true" />
+      <created>1711125456343</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1711125456343</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Small update">
+      <option name="closed" value="true" />
+      <created>1711125507279</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1711125507279</updated>
+    </task>
+    <task id="LOCAL-00013" summary="169. Majority Element">
+      <option name="closed" value="true" />
+      <created>1711127356653</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1711127356653</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,8 +227,11 @@
     <MESSAGE value="17. Letter Combinations of a Phone Number (not solve)" />
     <MESSAGE value="88. Merge Sorted Array" />
     <MESSAGE value="27. Remove Element" />
+    <MESSAGE value="80. Remove Duplicates from Sorted Array II" />
+    <MESSAGE value="26. Remove Duplicates from Sorted Array" />
     <MESSAGE value="Small update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small update" />
+    <MESSAGE value="169. Majority Element" />
+    <option name="LAST_COMMIT_MESSAGE" value="169. Majority Element" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -254,13 +288,31 @@
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/problems/java/RemoveDuplicatesFromSortedArrayII88.java</url>
+          <url>file://$PROJECT_DIR$/src/problems/java/RemoveDuplicatesFromSortedArrayII80.java</url>
           <line>6</line>
-          <properties class="problems.java.RemoveDuplicatesFromSortedArrayII88" method="removeDuplicates">
+          <properties class="problems.java.RemoveDuplicatesFromSortedArrayII80" method="removeDuplicates">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/problems/java/MajorityElement169.java</url>
+          <line>9</line>
+          <properties class="problems.java.MajorityElement169" method="majorityElement">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/problems/java/RotateArray189.java</url>
+          <line>15</line>
+          <properties class="problems.java.RotateArray189" method="rotateStream">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
