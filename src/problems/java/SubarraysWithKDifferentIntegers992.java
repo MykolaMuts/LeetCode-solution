@@ -13,7 +13,7 @@ public class SubarraysWithKDifferentIntegers992 {
      * @param k number of unique numbers
      * @return all possible good array
      */
-    public int subarraysWithKDistinct2(int[] nums, int k) {
+    public int subarraysWithKDistinct(int[] nums, int k) {
 
         int ans = 0;
 
